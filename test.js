@@ -5,7 +5,7 @@ const { smartuiSnapshot } = require('@lambdatest/selenium-driver');
   let driver = await new Builder().forBrowser("chrome").build();
 
   try {
-    await driver.get("https://www.lambdatest.com");
+    await driver.get("https://www.lambdatest.com");//sddssd
     await smartuiSnapshot(driver, "Lambdatest");
     await driver.get("https://www.pinterest.com/pin/112801165652823604/");
     //sjah
