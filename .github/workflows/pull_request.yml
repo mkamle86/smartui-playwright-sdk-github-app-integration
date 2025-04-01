@@ -45,8 +45,6 @@ jobs:
       - name: Install Lambda CLI
         run: npm install @lambdatest/smartui-storybook -g
 
-      - name: Run Storybook
-        run: npm run build-storybook
 
       - name: Give some time to start the Storybook server
         run: |
