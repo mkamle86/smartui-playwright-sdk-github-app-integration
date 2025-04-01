@@ -2,9 +2,9 @@ name: Test Storybook with SmartUI
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "dev-5"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "dev-5"]
 
 jobs:
   build:
