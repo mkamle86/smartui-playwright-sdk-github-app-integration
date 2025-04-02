@@ -12,6 +12,6 @@ const { smartuiSnapshot } = require('@lambdatest/selenium-driver');
     await smartuiSnapshot(driver, "NYC");
     // some comment
   } finally {
-    await driver.quit();
+    await driver.quit();//dsdds
   }
 })();
